@@ -1,0 +1,36 @@
+{
+  "name": "mdma-static-site",
+  "version": "1.0.0",
+  "description": "Static Website for Modern Day Marketing Agency.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amantheroot/mdma-static-site.git"
+  },
+  "keywords": [
+    "MDMA",
+    "Marketing",
+    "Agency",
+    "Modern",
+    "Static"
+  ],
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amantheroot/mdma-static-site/issues"
+  },
+  "homepage": "https://github.com/amantheroot/mdma-static-site#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^10.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
