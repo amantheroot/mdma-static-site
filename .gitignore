@@ -81,6 +81,11 @@ typings/
 # Next.js export output
 out
 
+# Next.js production
+/public/sw.js
+/public/workbox-*.js
+/public/*.map
+
 # Nuxt.js build / generate output
 .nuxt
 dist
